@@ -1,19 +1,19 @@
-// const input = document.getElementById('button');
+const input = document.getElementById('button');
 
-// function clickAlert() {
-//   alert('I was clicked!');
-// }
+function clickAlert() {
+  alert('I was clicked!');
+}
 
-// input.addEventListener('click', clickAlert);
+input.addEventListener('click', clickAlert);
 
-// const myButton = document.getElementById("myButton");
+const myButton = document.getElementById("myButton");
 
-// myButton.addEventListener("click", function() {
-//     alert('I was clicked!'); 
+myButton.addEventListener("click", function() {
+    alert('I was clicked!'); 
     
 
-// });
-// input.addEventListener('click', clickAlert);
+});
+input.addEventListener('click', clickAlert);
 function addingEventListener() {
     const myButton = document.getElementById("button");
 
